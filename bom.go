@@ -15,7 +15,7 @@ import (
 
 var (
 	// 仇人手机号 可以直接改成字符串
-	phone = os.Getenv("test_phone")
+	phone = os.Getenv("TEL")
 	// 收集短信接口
 	apiList []string = make([]string, 0, 1000)
 	format           = "2006-01-02 15:04:05"
@@ -41,7 +41,7 @@ func main() {
 	//监听指定信号 ctrl+c kill
 	signal.Notify(channel, os.Interrupt, os.Kill, syscall.SIGUSR1, syscall.SIGUSR2)
 	fmt.Println(banner)
-	fmt.Println("[INFO] 开始:", phone, "bom bom...")
+	fmt.Println("[INFO] 开始:", phone, "...")
 	go func() {
 		for {
 			for _, url := range apiList {

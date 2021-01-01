@@ -1,6 +1,7 @@
 # sms_bomber
 这个项目也就是有小伙伴需要，然后无聊随便写了一下就这么开源了。短信轰炸机源代码，希望大家可以更新新的API到api.txt中，可发起pr。
 
+# follow me 跟随我
 
 # Use Example
 

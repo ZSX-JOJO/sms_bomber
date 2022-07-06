@@ -1,5 +1,4 @@
-// 惩恶扬善 短信轰炸程序
-// higkers@gmail.com
+// 短信轰炸程序
 package main
 
 import (
